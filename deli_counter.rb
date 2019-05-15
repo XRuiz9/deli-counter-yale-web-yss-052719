@@ -9,9 +9,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz, new)
-  nCust = katz_deli.size
   katz_deli << new
-  puts "Welcome, #{new}. You are number #{nCust + 1} in line."
+  nCust = katz_deli.size
+  puts "Welcome, #{new}. You are number #{nCust} in line."
 end
 
 def now_serving
