@@ -12,7 +12,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz, new)
+def take_a_number(katz_deli, new)
   katz_deli << new
   nCust = katz_deli.count
   puts "Welcome, #{new}. You are number #{nCust} in line."
