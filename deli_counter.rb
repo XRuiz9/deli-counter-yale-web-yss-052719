@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     puts "The line is currently:".chomp
     katz_deli.each_with_index do |name, index|
-      puts "#{index + 1}. #{name}"
+      puts "#{index + 1}. #{name}".chomp
     end
   end
 end
