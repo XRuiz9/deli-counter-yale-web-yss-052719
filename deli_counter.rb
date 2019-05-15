@@ -9,7 +9,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz, new)
-  katz_deli = katz_deli << new
+  katz_deli << new
   nCust = katz_deli.size
   puts "Welcome, #{new}. You are number #{nCust} in line."
 end
