@@ -13,3 +13,6 @@ def take_a_number(katz, new)
   katz_deli << new
   place = line(name)
   puts "#{name} #{place}"
+end
+
+def now_serving
