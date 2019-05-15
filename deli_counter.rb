@@ -16,3 +16,4 @@ def take_a_number(katz, new)
 end
 
 def now_serving
+end
