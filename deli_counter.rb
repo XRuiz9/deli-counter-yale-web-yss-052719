@@ -4,8 +4,7 @@ def line
   if katz_deli == []
     "The line is currently empty."
   else
-    place = katz_deli.index(name)
-    place + 1
+    katz_deli
   end
 end
 
